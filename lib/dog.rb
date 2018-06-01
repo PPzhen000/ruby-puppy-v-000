@@ -7,6 +7,10 @@ class Dog
     @@all << self
   end
 
+  def name
+    @name
+  end
+  
   def self.all
     @@all.each do |dogs|
       puts dogs
@@ -15,5 +19,5 @@ class Dog
 
   def self.clear_all
     @@all.clear
-  end 
+  end
 end
