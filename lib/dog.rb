@@ -1,19 +1,19 @@
 class Dog
 
-  @@all = [] 
+  @@all = []
 
-  def initialize(name) 
-    @name = name 
-    @@all << self 
-  end 
+  def initialize(name)
+    @name = name
+    @@all << self
+  end
 
-  def self.all 
+  def self.all
     @@all.each do |dogs|
       puts dogs
-    end   
-  end 
+    end
+  end
 
-  def self.clear_all 
-    @@all.clear 
+  def self.clear_all
+    @@all.clear
   end 
-end 
+end
